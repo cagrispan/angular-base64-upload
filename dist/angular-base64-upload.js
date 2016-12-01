@@ -63,6 +63,7 @@
             _readFiles();
             _onChange(e);
             _onAfterValidate(e);
+            elem[0].value = '';
           });
 
           function _readFiles() {
